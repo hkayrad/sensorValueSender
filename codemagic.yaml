@@ -8,7 +8,7 @@ workflows:
                 XCODE_WORKSPACE: "ios/sensor_value_sender_build.xcworkspace" # <-- Put the name of your Xcode workspace here
                 XCODE_SCHEME: "sensor_value_sender_build" # <-- Put the name of your Xcode scheme here
             node: v16.11.1
-            xcode: 13.0
+            xcode: 14.2
             cocoapods: default
         scripts:
             - name: Install npm dependencies
