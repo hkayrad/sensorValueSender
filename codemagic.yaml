@@ -2,7 +2,7 @@ workflows:
     react-native-ios:
         name: React Native iOS
         max_build_duration: 120
-        instance_type: mac_pro
+        instance_type: mac_mini_m1
         environment:
             vars:
                 XCODE_WORKSPACE: "ios/sensor_value_sender_build.xcworkspace" # <-- Put the name of your Xcode workspace here
